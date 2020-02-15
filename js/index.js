@@ -12,6 +12,13 @@ contentSec.addEventListener('click', (e) => {
     e.stopPropagation();
 });
 
+const contentDes = document.querySelector('.content-destination');
+contentDes.addEventListener('dblclick', (e) => {
+    contentDes.style.background = 'whiteSmoke';
+
+    e.stopPropagation();
+});
+
 //stopDefault
 const stopNav = document.querySelector('.nav-link');
 stopNav.addEventListener('click', (e) => {
